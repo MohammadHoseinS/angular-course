@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+html {
+	height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	background-color: blue;
+	padding: 2rem;
+	color: white;
+}
+
+footer {
+	background-color: dimgrey;
+	text-align: center;
+	padding: 2rem;
+}
+
+#menu-wrapper {
+	width: 50%;
+}
+
+.menu-item {
+	margin: 0;
+	padding: 10px;
+	background-color: #a8dadc;
+}
+
+main {
+	padding-left: 20px;
+}
+
+.main-wrapper {
+	display: flex;
+	flex: 1;
+	align-items: stretch;
+	flex-direction: column;
+}
+
+.wrapper {
+	display: flex;
+	flex: 1;
+	background-color: papayawhip;
+}
